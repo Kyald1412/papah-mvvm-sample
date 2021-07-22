@@ -15,7 +15,6 @@
 		BC03B6B126A931E3002D49DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC03B6AF26A931E3002D49DD /* LaunchScreen.storyboard */; };
 		BC03B6B926A931FA002D49DD /* HomeControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC03B6B826A931FA002D49DD /* HomeControllerViewModel.swift */; };
 		BC03B6BB26A93237002D49DD /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC03B6BA26A93237002D49DD /* HomeModel.swift */; };
-		BC03B6BE26A933CE002D49DD /* DataBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC03B6BD26A933CE002D49DD /* DataBinding.swift */; };
 		BC604AAB26A938780029C3DF /* HomeMVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC604AAA26A9385D0029C3DF /* HomeMVCModel.swift */; };
 		BC604AAC26A938780029C3DF /* HomeMVCControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC604AA826A938570029C3DF /* HomeMVCControllerViewModel.swift */; };
 		BC604AAD26A938780029C3DF /* HomeMVCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC604AA926A938590029C3DF /* HomeMVCController.swift */; };
@@ -32,7 +31,6 @@
 		BC03B6B226A931E3002D49DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC03B6B826A931FA002D49DD /* HomeControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerViewModel.swift; sourceTree = "<group>"; };
 		BC03B6BA26A93237002D49DD /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
-		BC03B6BD26A933CE002D49DD /* DataBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBinding.swift; sourceTree = "<group>"; };
 		BC604AA826A938570029C3DF /* HomeMVCControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMVCControllerViewModel.swift; sourceTree = "<group>"; };
 		BC604AA926A938590029C3DF /* HomeMVCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMVCController.swift; sourceTree = "<group>"; };
 		BC604AAA26A9385D0029C3DF /* HomeMVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMVCModel.swift; sourceTree = "<group>"; };
@@ -68,37 +66,36 @@
 		BC03B6A326A931E2002D49DD /* MC3 MVVM Sample */ = {
 			isa = PBXGroup;
 			children = (
-				BC604AA726A938490029C3DF /* HomeMVC */,
-				BC03B6BC26A93239002D49DD /* HomeMVVM */,
+				BC604AA726A938490029C3DF /* MVVM Protocol */,
+				BC03B6BC26A93239002D49DD /* MVVM Combine */,
 				BC03B6A426A931E2002D49DD /* AppDelegate.swift */,
 				BC03B6A626A931E2002D49DD /* SceneDelegate.swift */,
 				BC03B6AA26A931E2002D49DD /* Main.storyboard */,
 				BC03B6AD26A931E3002D49DD /* Assets.xcassets */,
 				BC03B6AF26A931E3002D49DD /* LaunchScreen.storyboard */,
 				BC03B6B226A931E3002D49DD /* Info.plist */,
-				BC03B6BD26A933CE002D49DD /* DataBinding.swift */,
 			);
 			path = "MC3 MVVM Sample";
 			sourceTree = "<group>";
 		};
-		BC03B6BC26A93239002D49DD /* HomeMVVM */ = {
+		BC03B6BC26A93239002D49DD /* MVVM Combine */ = {
 			isa = PBXGroup;
 			children = (
 				BC03B6BA26A93237002D49DD /* HomeModel.swift */,
 				BC03B6B826A931FA002D49DD /* HomeControllerViewModel.swift */,
 				BC03B6A826A931E2002D49DD /* HomeController.swift */,
 			);
-			path = HomeMVVM;
+			path = "MVVM Combine";
 			sourceTree = "<group>";
 		};
-		BC604AA726A938490029C3DF /* HomeMVC */ = {
+		BC604AA726A938490029C3DF /* MVVM Protocol */ = {
 			isa = PBXGroup;
 			children = (
 				BC604AAA26A9385D0029C3DF /* HomeMVCModel.swift */,
 				BC604AA826A938570029C3DF /* HomeMVCControllerViewModel.swift */,
 				BC604AA926A938590029C3DF /* HomeMVCController.swift */,
 			);
-			path = HomeMVC;
+			path = "MVVM Protocol";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +171,6 @@
 				BC03B6A926A931E2002D49DD /* HomeController.swift in Sources */,
 				BC604AAD26A938780029C3DF /* HomeMVCController.swift in Sources */,
 				BC604AAB26A938780029C3DF /* HomeMVCModel.swift in Sources */,
-				BC03B6BE26A933CE002D49DD /* DataBinding.swift in Sources */,
 				BC03B6B926A931FA002D49DD /* HomeControllerViewModel.swift in Sources */,
 				BC604AAC26A938780029C3DF /* HomeMVCControllerViewModel.swift in Sources */,
 				BC03B6A526A931E2002D49DD /* AppDelegate.swift in Sources */,
